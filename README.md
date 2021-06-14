@@ -6,3 +6,12 @@ Run this code by
 ```
 python test.py --img_path=images/ILSVRC2012_val_00000057.JPEG(or your own image path)
 ```
+
+## Applications
+
+
+## Ciations
+
+
+## License
+The source code is free for research and education use only. Any comercial use should get formal permission first.
