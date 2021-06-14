@@ -10,7 +10,7 @@ python test.py --img_path=images/ILSVRC2012_val_00000057.JPEG(or your own image 
 ## Applications
 
 
-## Ciations
+## Citation
 
 
 ## License
