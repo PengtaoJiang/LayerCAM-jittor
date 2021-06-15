@@ -1,7 +1,7 @@
 # LayerCAM: Exploring Hierarchical Class Activation Maps for Localization
-To appear at IEEE TIP 2021  
-This paper aims to generate reliable class activation maps from different cnn layers.
+To appear at IEEE Transactions on Image Processing 2021  
 <img src="https://github.com/PengtaoJiang/LayerCAM/blob/master/layercam.png" width="100%" height="100%">
+This paper aims to generate reliable class activation maps from different cnn layers.
 
 ## Run 
 ```
