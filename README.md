@@ -1,7 +1,7 @@
 # LayerCAM: Exploring Hierarchical Class Activation Maps for Localization
 To appear at IEEE Transactions on Image Processing 2021  
 <img src="https://github.com/PengtaoJiang/LayerCAM/blob/master/layercam.png" width="100%" height="100%">
-This paper aims to generate reliable class activation maps from different cnn layers.
+This paper aims to generate reliable class activation maps from different cnn layers. 
 
 ## Run 
 ```
@@ -10,6 +10,9 @@ python test.py --img_path=images/ILSVRC2012_val_00000057.JPEG(or your own image 
 
 
 ## Application
+### 1. industry defect localization 
+The industry defects usually have small size and various shapes. The maps generated from the last cnn layers can only 
+coarsely locate the defects.
 
 
 ## Citation
