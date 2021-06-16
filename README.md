@@ -1,7 +1,7 @@
 # LayerCAM: Exploring Hierarchical Class Activation Maps for Localization
 To appear at IEEE Transactions on Image Processing 2021  
 <img src="https://github.com/PengtaoJiang/LayerCAM/blob/master/layercam.png" width="100%" height="50%">
-This paper aims to generate reliable class activation maps from different cnn layers. 
+This paper aims to generate reliable class activation maps from different CNN layers. The class activation maps generated from the shallow layers of CNN tend to capture fine-grained object localization information, while the maps generated from the deep layers tend to generally locate the target objects. 
 
 ## Run 
 ```
