@@ -7,6 +7,14 @@ This paper aims to generate reliable class activation maps from different CNN la
 ```
 python test.py --img_path=images/ILSVRC2012_val_00000057.JPEG(or your own image path)
 ```
+## Citation
+@article{jiang2021layercam,
+  title={LayerCAM: Exploring Hierarchical Class Activation Maps},
+  author={Jiang, Peng-Tao and Zhang, Chang-Bin and Hou, Qibin and Cheng, Ming-Ming and Wei, Yunchao},
+  journal={IEEE Transactions on Image Processing},
+  year={2021},
+  publisher={IEEE}
+}
 
 ## License
 The source code is free for research and education use only. Any comercial use should get formal permission first.
