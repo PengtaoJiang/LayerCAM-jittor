@@ -18,9 +18,6 @@ python test.py --img_path=images/ILSVRC2012_val_00000057.JPEG(or your own image 
 }
 ```
 
-## License
-The source code is free for research and education use only. Any comercial use should get formal permission first.
-
 ## Contact
 If you have any questions, feel free to contact me via: pt.jiang at mail.nankai.edu.cn
 
