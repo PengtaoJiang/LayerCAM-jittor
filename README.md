@@ -10,7 +10,7 @@ python test.py --img_path=images/ILSVRC2012_val_00000057.JPEG(or your own image 
 ## Citation
 ```
 @article{jiang2021layercam,
-  title={LayerCAM: Exploring Hierarchical Class Activation Maps},
+  title={LayerCAM: Exploring Hierarchical Class Activation Maps For Localization},
   author={Jiang, Peng-Tao and Zhang, Chang-Bin and Hou, Qibin and Cheng, Ming-Ming and Wei, Yunchao},
   journal={IEEE Transactions on Image Processing},
   year={2021},
