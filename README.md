@@ -4,6 +4,7 @@ To appear at IEEE Transactions on Image Processing 2021
 This paper aims to generate reliable class activation maps from different CNN layers. The class activation maps generated from the shallow layers of CNN tend to capture fine-grained object localization information, while the maps generated from the deep layers tend to generally locate the target objects. 
 
 ## Update
+**`2021.7.12`**: Merged into [utkuozbulak/pytorch-cnn-visualizations](https://github.com/utkuozbulak/pytorch-cnn-visualizations) (5.8K Stars).
 **`2021.7.10`**: Merged into [jacobgil/pytorch-grad-cam](https://github.com/jacobgil/pytorch-grad-cam) (2.9K Stars).
 
 ## Run 
