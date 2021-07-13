@@ -11,6 +11,14 @@ This paper aims to generate reliable class activation maps from different CNN la
 ```
 python test.py --img_path=images/ILSVRC2012_val_00000057.JPEG(or your own image path)
 ```
+
+## Some issues
+For those layers that are followed by a layer (max pooling in vgg or conv with stride > 1 in resnet), the cam visualizations usually have grid effect. 
+This issue comes from the gradient backward. There are two ways to avoid this issue.   
+1. I usually choose the nearby layers for visualization. For example, pool4 instead of conv3_3 in vgg16, or model.layer3[-2] instead of model.layer3[-1] in ResNet. 
+2. Another choice is to upsample the following layer's gradient, for example, Up(pool4's gradient) * conv3_3's activation. 
+3. Besides, we also found that larger input will obtain more fine-grained cam visualization for lower layers.
+
 ## Citation
 ```
 @article{jiang2021layercam,
